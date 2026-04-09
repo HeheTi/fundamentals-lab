@@ -34,20 +34,24 @@ The goal is to connect low-level concepts with real-world software development.
 
 Each module represents a core area of programming knowledge.
 
+```txt
 01-...
 02-...
 03-...
+```
 
 Inside each module:
 
+```txt
 module/
 ├─ README.md
 ├─ theory/      # core concepts and explanations
-├─ c/           # low-level perspective (memory, pointers, data layout)
+├─ c/           # low-level perspective (memory, pointers, layout)
 ├─ js-ts/       # runtime behavior, abstractions, async
 ├─ <other>/     # optional languages (java, python, etc.)
 ├─ exercises/   # practice tasks
 └─ interview/   # questions and answers
+```
 
 Note:
 - not all folders exist in every module
